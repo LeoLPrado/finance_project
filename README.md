@@ -7,7 +7,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto consiste na implementação de um **Data Warehouse** focado em análise de ativos financeiros (Ações, Commodities e Criptomoedas). O objetivo principal é centralizar transações de diferentes naturezas e cruzá-las com dados de mercado históricos para gerar insights precisos sobre a evolução patrimonial.
+Este projeto consiste na implementação de um **Data Warehouse** focado em análise de ativos financeiros (Commodities e Criptomoedas). O objetivo principal é centralizar transações de diferentes naturezas e cruzá-las com dados de mercado históricos para gerar insights precisos sobre a evolução patrimonial.
 
 A arquitetura segue o padrão **Medallion (Bronze, Silver, Gold)**, garantindo a rastreabilidade, limpeza e organização dos dados desde a ingestão bruta até a camada de análise.
 
