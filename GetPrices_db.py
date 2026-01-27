@@ -6,6 +6,7 @@ from GetBTC import get_btc_df
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
+
 # Carregar variaveis do .env
 load_dotenv()
 
@@ -39,4 +40,3 @@ if __name__ == '__main__':
 
         # Espera para o proximo ciclo
         time.sleep(SLEEP_SECONDS)
-        
