@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 import time
-from GetCommodities import get_commodities_df
-from GetBTC import get_btc_df
+from extract.GetCommodities import get_commodities_df
+from extract.GetBTC import get_btc_df
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
