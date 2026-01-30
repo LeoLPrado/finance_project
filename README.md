@@ -1,4 +1,4 @@
-# 📈 Financial Data Lakehouse: Medallion Architecture
+# 📈 Financial Data Warehouse: Medallion Architecture
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
@@ -49,8 +49,8 @@ Onde ocorre a mágica da transformação e limpeza:
 
 ### 4. Camada Gold (Business)
 Dados agregados prontos para consumo por ferramentas de BI ou Dashboards.
-* `gold_sales_byclient`: Performance consolidada por cliente.
-* `gold_7last_assets`: Visão temporal dos ativos nos últimos 7 dias (SCD Tipo 2).
+* `gold_KPI_bycustomer`: Performance consolidada por cliente.
+* `gold_last7_vendas`: Visão temporal dos ativos nos últimos 7 dias (SCD Tipo 2).
 
 ---
 
@@ -58,7 +58,7 @@ Dados agregados prontos para consumo por ferramentas de BI ou Dashboards.
 
 * **Linguagem:** Python (Pandas, Requests), SQL.
 * **Banco de Dados:** PostgreSQL (via Supabase).
-* **Conceitos:** Data Warehousing, ETL/ELT, Medallion Architecture, Dimensional Modeling (Fatos e dimensoes).
+* **Conceitos:** Data Warehousing, ETL/ELT, Medallion Architecture.
 
 ---
 
